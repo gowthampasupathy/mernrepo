@@ -1,0 +1,151 @@
+body {
+    background-color: #031927;
+  }
+  .heading {
+    background-color: #ba1200;
+    margin: auto;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .image {
+    width: 50%;
+    height: 600px;
+    margin-right: 50%;
+    float: left;
+    left: 50%;
+    margin-right: -3px;
+    top: 0%;
+    display: block;
+    background-image: url("https://img.freepik.com/free-photo/stack-various-books-table_1252-710.jpg?w=996&t=st=1704694660~exp=1704695260~hmac=ead39f6a9a60ae5a46dc97ab34fd312e8fa7979a09c548662981feb2d967dd73");
+    background-size: cover;
+    background-position: 90%;
+    border-radius: 10px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ba1200;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: 0.5s ease;
+  }
+  
+.image:hover .overlay {
+width: 50%;
+}
+.text {
+white-space: nowrap;
+color: white;
+text-transform: uppercase;
+font-family: "Times New Roman", Times, serif;
+font-size: 30px;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+font-weight: 500px;
+}
+.v1 {
+border-left: 6px solid #031927;
+height: 600px;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+top: 0%;
+}
+.main {
+height: 70%;
+width: 40%;
+background-color: #031927;
+margin-top: 9%;
+margin-left: 55%;
+position: absolute;
+border-radius: 15px;
+color: white;
+}
+
+.h3 {
+text-align: center;
+}
+.frst {
+background-color: #ba1200;
+height: 40px;
+width: 350px;
+margin-left: 30px;
+border-radius: 10px;
+}
+.hidd {
+background-color: #ba1200;
+height: 40px;
+width: 350px;
+margin-left: 30px;
+border-radius: 10px;
+margin-top: 30px;
+}
+.hidd1 {
+background-color: #ba1200;
+height: 40px;
+width: 350px;
+margin-left: 30px;
+border-radius: 10px;
+margin-top: 30px;
+}
+.p {
+text-align: center;
+margin-top: 200 px;
+padding-top: 10px;
+color: white;
+}
+.select {
+background-color: #031927;
+color: white;
+}
+.button {
+width: 15%;
+height: 10%;
+float: right;
+margin-right: 80px;
+margin-top: 540px;
+background-color: #031927;
+color: white;
+}
+.button2 {
+width: 15%;
+height: 10%;
+float: right;
+margin-right: 300px;
+margin-top: -22px;
+background-color: #031927;
+color: white;
+}
+.title {
+text-align: center;
+margin-top: 200 px;
+padding-top: 10px;
+color: white;
+}
+.result{
+background-color: #ba1200;
+margin: auto;
+width: 70%;
+margin: auto;
+border-radius: 10px;
+height: 200px;
+position: absolute;
+left: 15%;
+top: 100%;
+text-align: center;
+color: white;
+
+}

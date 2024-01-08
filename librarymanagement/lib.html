@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Stylesheet" href="lib.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading">
+      <div class="image">
+        <div class="overlay">
+          <div class="text">Welcome To Library</div>
+        </div>
+      </div>
+      <div>
+        <button class="button" id="btn" onclick="clickhere()">submit</button>
+      </div>
+      <div id="btn22">
+        <button class="button2" id="btn2" onclick="buttoncall()" name="addbook">
+          Apply
+        </button>
+      </div>
+      <div class="v1"></div>
+      <div class="main">
+        <h2 class="h3">LIBRARY MANAGEMENT SYSTEM</h2>
+        <hr />
+        <div class="frst">
+          <p class="p">
+            Enter Your Choise :
+            <select class="select" id="selec">
+              <option value="0">Click Here</option>
+              <option value="1">AddBook</option>
+              <option value="2">RemoveLastBook</option>
+              <option value="3">AddBookToFront</option>
+              <option value="4">RemoveFirstBook</option>
+              <option value="5">GetAllTitles</option>
+              <option value="6">GetBooksByAuthor</option>
+              <option value="7">GetTotalBooksPublishedBefore</option>
+              <option value="8">RemoveBookByTitle</option>
+              <option value="9">GetBooksByReadStatus</option>
+              <option value="10">GetSubLibrary</option>
+            </select>
+          </p>
+        </div>
+        <div id="hide1" class="addbook">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Book Title: <input type="text" id="name" class="nam" />
+            </p>
+          </div>
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Author Name: <input type="text" id="aname" class="anam" />
+            </p>
+          </div>
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Published Year: <input type="text" id="year" class="yr" />
+            </p>
+          </div>
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Read Status: <input type="text" id="status" class="sts" />
+            </p>
+          </div>
+        </div>
+        <div id="hide2">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Book Title: <input type="text" id="tname" class="nam" />
+            </p>
+          </div>
+        </div>
+        <div id="hide3">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Author Name: <input type="text" id="gname" class="anam" />
+            </p>
+          </div>
+        </div>
+        <div id="hide4">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter The Year: <input type="text" id="gyr" class="anam" />
+            </p>
+          </div>
+        </div>
+        <div id="hide5">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Book Title: <input type="text" id="gtname" class="nam" />
+            </p>
+          </div>
+        </div>
+        <div id="hide6">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Read Status: <input type="text" id="stsname" class="nam" />
+            </p>
+          </div>
+        </div>
+        <div id="hide7">
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Starting Point: <input type="text" id="start" class="nam" />
+            </p>
+          </div>
+          <div class="hidd" id="hid">
+            <p class="title">
+              Enter Ending Point: <input type="text" id="end" class="nam" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="result">
+      <h1>RESULT BOX</h1>
+      <p id="res"></p>
+    </div>
+    <script src="lib.js"></script>
+  </body>
+</html>
